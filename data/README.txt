@@ -1,0 +1,1 @@
+I wasn't able to upload the census data input I used due to its size. About 0.5GB. This census data I used is accessible through the census library in python.

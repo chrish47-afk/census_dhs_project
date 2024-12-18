@@ -1,0 +1,226 @@
+variable,label,,,,,,,,,,,,,,,,,,,
+B05001_001E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05001_001,B05001_001M,B05001_001MA,,"""B05001_001M"""
+B05001_002E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05001_002,B05001_002M,B05001_002MA,,"""B05001_002M"""
+B05001_003E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05001_003,B05001_003M,B05001_003MA,,"""B05001_003M"""
+B05002_001E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05002_001,B05002_001M,B05002_001MA,,"""B05002_001M"""
+B05002_002E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05002_002,B05002_002M,B05002_002MA,,"""B05002_002M"""
+B05002_003E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05002_003,B05002_003M,B05002_003MA,,"""B05002_003M"""
+B05002_004E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05002_004,B05002_004M,B05002_004MA,,"""B05002_004M"""
+B05002_005E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05002_005,B05002_005M,B05002_005MA,,"""B05002_005M"""
+B05002_006E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05002_006,B05002_006M,B05002_006MA,,"""B05002_006M"""
+B05003_001E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05003_001,B05003_001M,B05003_001MA,,"""B05003_001M"""
+B05003_002E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05003_002,B05003_002M,B05003_002MA,,"""B05003_002M"""
+B05003_003E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05003_003,B05003_003M,B05003_003MA,,"""B05003_003M"""
+B05003_004E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,B05003_004,B05003_004M,B05003_004MA,,"""B05003_004M"""
+B05005_001E,Period of Entry by Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05005_001,B05005_001M,B05005_001MA,,"""B05005_001M"""
+B05005_002E,Period of Entry by Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05005_002,B05005_002M,B05005_002MA,,"""B05005_002M"""
+B05005_003E,Period of Entry by Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05005_003,B05005_003M,B05005_003MA,,"""B05005_003M"""
+B05006_001E,Place of Birth for the Foreign-Born Population in the United States,,,,,,,,,,,,,,,B05006_001,B05006_001M,B05006_001MA,,"""B05006_001M"""
+B05006_002E,Place of Birth for the Foreign-Born Population in the United States,,,,,,,,,,,,,,,B05006_002,B05006_002M,B05006_002MA,,"""B05006_002M"""
+B05007_001E,Place of Birth by Year of Entry by Citizenship Status for the Foreign-Born Population,,,,,,,,,,,,,,,B05007_001,B05007_001M,B05007_001MA,,"""B05007_001M"""
+B05007_002E,Place of Birth by Year of Entry by Citizenship Status for the Foreign-Born Population,,,,,,,,,,,,,,,B05007_002,B05007_002M,B05007_002MA,,"""B05007_002M"""
+B05007_003E,Place of Birth by Year of Entry by Citizenship Status for the Foreign-Born Population,,,,,,,,,,,,,,,B05007_003,B05007_003M,B05007_003MA,,"""B05007_003M"""
+B05010_001E,Ratio of Income to Poverty Level in the Past 12 Months by Nativity of Children Under 18 Years in Families and Subfamilies by Living Arrangements and Nativity of Parents,,,,,,,,,,,,,,,B05010_001,B05010_001M,B05010_001MA,,"""B05010_001M"""
+B06007_001E,Place of Birth by Language Spoken at Home and Ability to Speak English in the United States,,,,,,,,,,,,,,,B06007_001,B06007_001M,B06007_001MA,,"""B06007_001M"""
+B06007_004E,Place of Birth by Language Spoken at Home and Ability to Speak English in the United States,,,,,,,,,,,,,,,B06007_004,B06007_004M,B06007_004MA,,"""B06007_004M"""
+B06007_005E,Place of Birth by Language Spoken at Home and Ability to Speak English in the United States,,,,,,,,,,,,,,,B06007_005,B06007_005M,B06007_005MA,,"""B06007_005M"""
+B06007_006E,Place of Birth by Language Spoken at Home and Ability to Speak English in the United States,,,,,,,,,,,,,,,B06007_006,B06007_006M,B06007_006MA,,"""B06007_006M"""
+B06008_001E,Place of Birth by Marital Status in the United States,,,,,,,,,,,,,,,B06008_001,B06008_001M,B06008_001MA,,"""B06008_001M"""
+B06008_002E,Place of Birth by Marital Status in the United States,,,,,,,,,,,,,,,B06008_002,B06008_002M,B06008_002MA,,"""B06008_002M"""
+B06009_001E,Place of Birth by Educational Attainment in the United States,,,,,,,,,,,,,,,B06009_001,B06009_001M,B06009_001MA,,"""B06009_001M"""
+B06009_005E,Place of Birth by Educational Attainment in the United States,,,,,,,,,,,,,,,B06009_005,B06009_005M,B06009_005MA,,"""B06009_005M"""
+B16005_001E,Nativity by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over,,,,,,,,,,,,,,,B16005_001,B16005_001M,B16005_001MA,,"""B16005_001M"""
+B16010_001E,Educational Attainment and Employment Status by Language Spoken at Home for the Population 25 Years and Over,,,,,,,,,,,,,,,B16010_001,B16010_001M,B16010_001MA,,"""B16010_001M"""
+B17021_001E,Poverty Status of Individuals in the Past 12 Months by Living Arrangement,,,,,,,,,,,,,,,B17021_001,B17021_001M,B17021_001MA,,"""B17021_001M"""
+B17021_002E,Poverty Status of Individuals in the Past 12 Months by Living Arrangement,,,,,,,,,,,,,,,B17021_002,B17021_002M,B17021_002MA,,"""B17021_002M"""
+B17021_003E,Poverty Status of Individuals in the Past 12 Months by Living Arrangement,,,,,,,,,,,,,,,B17021_003,B17021_003M,B17021_003MA,,"""B17021_003M"""
+B22001_002E,Receipt of Food Stamps/SNAP in the Past 12 Months by Presence of People 60 Years and Over for Households,,,,,,,,,,,,,,,B22001_002,B22001_002M,B22001_002MA,,"""B22001_002M"""
+B22001_003E,Receipt of Food Stamps/SNAP in the Past 12 Months by Presence of People 60 Years and Over for Households,,,,,,,,,,,,,,,B22001_003,B22001_003M,B22001_003MA,,"""B22001_003M"""
+B01001_001E,Total ,,,,,,,,,,,,,,,B01001_001,B01001_001M,B01001_001MA,,"""B01001_001M"""
+B01002_001E,Median Age by Sex,,,,,,,,,,,,,,,B01002_001,B01002_001M,B01002_001MA,,"""B01002_001M"""
+B01002_002E,Median Age by Sex,,,,,,,,,,,,,,,B01002_002,B01002_002M,B01002_002MA,,"""B01002_002M"""
+B01002_003E,Median Age by Sex,,,,,,,,,,,,,,,B01002_003,B01002_003M,B01002_003MA,,"""B01002_003M"""
+B03002_001E,Hispanic or Latino Origin by Race,,,,,,,,,,,,,,,B03002_001,B03002_001M,B03002_001MA,,"""B03002_001M"""
+B03002_003E,Hispanic or Latino Origin by Race,,,,,,,,,,,,,,,B03002_003,B03002_003M,B03002_003MA,,"""B03002_003M"""
+B03002_004E,Hispanic or Latino Origin by Race,,,,,,,,,,,,,,,B03002_004,B03002_004M,B03002_004MA,,"""B03002_004M"""
+B03002_006E,Hispanic or Latino Origin by Race,,,,,,,,,,,,,,,B03002_006,B03002_006M,B03002_006MA,,"""B03002_006M"""
+B03002_012E,Hispanic or Latino Origin by Race,,,,,,,,,,,,,,,B03002_012,B03002_012M,B03002_012MA,,"""B03002_012M"""
+B15003_022E,Educational Attainment for the Population 25 Years and Over,,,,,,,,,,,,,,,B15003_022,B15003_022M,B15003_022MA,,"""B15003_022M"""
+B15003_023E,Educational Attainment for the Population 25 Years and Over,,,,,,,,,,,,,,,B15003_023,B15003_023M,B15003_023MA,,"""B15003_023M"""
+B15003_001E,Educational Attainment for the Population 25 Years and Over,,,,,,,,,,,,,,,B15003_001,B15003_001M,B15003_001MA,,"""B15003_001M"""
+B17020_001E,Poverty Status in the Past 12 Months by Age,,,,,,,,,,,,,,,B17020_001,B17020_001M,B17020_001MA,,"""B17020_001M"""
+B15003_024E,Educational Attainment for the Population 25 Years and Over,,,,,,,,,,,,,,,B15003_024,B15003_024M,B15003_024MA,,"""B15003_024M"""
+B15003_025E,Educational Attainment for the Population 25 Years and Over,,,,,,,,,,,,,,,B15003_025,B15003_025M,B15003_025MA,,"""B15003_025M"""
+B17020_002E,Poverty Status in the Past 12 Months by Age,,,,,,,,,,,,,,,B17020_002,B17020_002M,B17020_002MA,,"""B17020_002M"""
+B17020_003E,Poverty Status in the Past 12 Months by Age,,,,,,,,,,,,,,,B17020_003,B17020_003M,B17020_003MA,,"""B17020_003M"""
+B15003_017E,Educational Attainment for the Population 25 Years and Over,,,,,,,,,,,,,,,B15003_017,B15003_017M,B15003_017MA,,"""B15003_017M"""
+B19013_001E,Median Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars),,,,,,,,,,,,,,,B19013_001,B19013_001M,B19013_001MA,,"""B19013_001M"""
+B19001_001E,Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars),,,,,,,,,,,,,,,B19001_001,B19001_001M,B19001_001MA,,"""B19001_001M"""
+B19001_002E,Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars),,,,,,,,,,,,,,,B19001_002,B19001_002M,B19001_002MA,,"""B19001_002M"""
+B19001_017E,Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars),,,,,,,,,,,,,,,B19001_017,B19001_017M,B19001_017MA,,"""B19001_017M"""
+B19301_001E,Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars),,,,,,,,,,,,,,,B19301_001,B19301_001M,B19301_001MA,,"""B19301_001M"""
+B20005_001E,Sex by Work Experience in the Past 12 Months by Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 16 Years and Over,,,,,,,,,,,,,,,B20005_001,B20005_001M,B20005_001MA,,"""B20005_001M"""
+B20005_002E,Sex by Work Experience in the Past 12 Months by Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 16 Years and Over,,,,,,,,,,,,,,,B20005_002,B20005_002M,B20005_002MA,,"""B20005_002M"""
+B20005_003E,Sex by Work Experience in the Past 12 Months by Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 16 Years and Over,,,,,,,,,,,,,,,B20005_003,B20005_003M,B20005_003MA,,"""B20005_003M"""
+B20005_004E,Sex by Work Experience in the Past 12 Months by Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 16 Years and Over,,,,,,,,,,,,,,,B20005_004,B20005_004M,B20005_004MA,,"""B20005_004M"""
+B20005_005E,Sex by Work Experience in the Past 12 Months by Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 16 Years and Over,,,,,,,,,,,,,,,B20005_005,B20005_005M,B20005_005MA,,"""B20005_005M"""
+B20005_006E,Sex by Work Experience in the Past 12 Months by Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 16 Years and Over,,,,,,,,,,,,,,,B20005_006,B20005_006M,B20005_006MA,,"""B20005_006M"""
+B25001_001E,Housing Units,,,,,,,,,,,,,,,B25001_001,B25001_001M,B25001_001MA,,"""B25001_001M"""
+B02001_001E,Race,,,,,,,,,,,,,,,B02001_001,B02001_001M,B02001_001MA,,"""B02001_001M"""
+B02001_002E,Race,,,,,,,,,,,,,,,B02001_002,B02001_002M,B02001_002MA,,"""B02001_002M"""
+B02001_003E,Race,,,,,,,,,,,,,,,B02001_003,B02001_003M,B02001_003MA,,"""B02001_003M"""
+B02001_004E,Race,,,,,,,,,,,,,,,B02001_004,B02001_004M,B02001_004MA,,"""B02001_004M"""
+B08006_001E,Sex of Workers by Means of Transportation to Work,,,,,,,,,,,,,,,B08006_001,B08006_001M,B08006_001MA,,"""B08006_001M"""
+B08006_002E,Sex of Workers by Means of Transportation to Work,,,,,,,,,,,,,,,B08006_002,B08006_002M,B08006_002MA,,"""B08006_002M"""
+B08006_003E,Sex of Workers by Means of Transportation to Work,,,,,,,,,,,,,,,B08006_003,B08006_003M,B08006_003MA,,"""B08006_003M"""
+B08006_008E,Sex of Workers by Means of Transportation to Work,,,,,,,,,,,,,,,B08006_008,B08006_008M,B08006_008MA,,"""B08006_008M"""
+B11001_001E,Household Type (Including Living Alone),,,,,,,,,,,,,,,B11001_001,B11001_001M,B11001_001MA,,"""B11001_001M"""
+B11001_002E,Household Type (Including Living Alone),,,,,,,,,,,,,,,B11001_002,B11001_002M,B11001_002MA,,"""B11001_002M"""
+B11001_003E,Household Type (Including Living Alone),,,,,,,,,,,,,,,B11001_003,B11001_003M,B11001_003MA,,"""B11001_003M"""
+B13002_001E,Women 15 to 50 Years Who Had a Birth in the Past 12 Months by Marital Status and Age,,,,,,,,,,,,,,,B13002_001,B13002_001M,B13002_001MA,,"""B13002_001M"""
+B13002_002E,Women 15 to 50 Years Who Had a Birth in the Past 12 Months by Marital Status and Age,,,,,,,,,,,,,,,B13002_002,B13002_002M,B13002_002MA,,"""B13002_002M"""
+B23001_001E,Sex by Age by Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23001_001,B23001_001M,B23001_001MA,,"""B23001_001M"""
+B23001_002E,Sex by Age by Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23001_002,B23001_002M,B23001_002MA,,"""B23001_002M"""
+B23001_007E,Sex by Age by Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23001_007,B23001_007M,B23001_007MA,,"""B23001_007M"""
+B23001_008E,Sex by Age by Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23001_008,B23001_008M,B23001_008MA,,"""B23001_008M"""
+B23001_009E,Sex by Age by Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23001_009,B23001_009M,B23001_009MA,,"""B23001_009M"""
+B25004_001E,Vacancy Status,,,,,,,,,,,,,,,B25004_001,B25004_001M,B25004_001MA,,"""B25004_001M"""
+B25004_002E,Vacancy Status,,,,,,,,,,,,,,,B25004_002,B25004_002M,B25004_002MA,,"""B25004_002M"""
+B25004_003E,Vacancy Status,,,,,,,,,,,,,,,B25004_003,B25004_003M,B25004_003MA,,"""B25004_003M"""
+B25004_004E,Vacancy Status,,,,,,,,,,,,,,,B25004_004,B25004_004M,B25004_004MA,,"""B25004_004M"""
+B25004_005E,Vacancy Status,,,,,,,,,,,,,,,B25004_005,B25004_005M,B25004_005MA,,"""B25004_005M"""
+B25004_006E,Vacancy Status,,,,,,,,,,,,,,,B25004_006,B25004_006M,B25004_006MA,,"""B25004_006M"""
+B25004_007E,Vacancy Status,,,,,,,,,,,,,,,B25004_007,B25004_007M,B25004_007MA,,"""B25004_007M"""
+B23025_001E,Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23025_001,B23025_001M,B23025_001MA,,"""B23025_001M"""
+B23025_002E,Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23025_002,B23025_002M,B23025_002MA,,"""B23025_002M"""
+B23025_003E,Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23025_003,B23025_003M,B23025_003MA,,"""B23025_003M"""
+B23025_004E,Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23025_004,B23025_004M,B23025_004MA,,"""B23025_004M"""
+B23025_005E,Employment Status for the Population 16 Years and Over,,,,,,,,,,,,,,,B23025_005,B23025_005M,B23025_005MA,,"""B23025_005M"""
+B25035_001E,#N/A,,,,,,,,,,,,,,,B25035_001,B25035_001M,B25035_001MA,,"""B25035_001M"""
+B25077_001E,#N/A,,,,,,,,,,,,,,,B25077_001,B25077_001M,B25077_001MA,,"""B25077_001M"""
+B25064_001E,#N/A,,,,,,,,,,,,,,,B25064_001,B25064_001M,B25064_001MA,,"""B25064_001M"""
+B25105_001E,#N/A,,,,,,,,,,,,,,,B25105_001,B25105_001M,B25105_001MA,,"""B25105_001M"""
+B08014_001E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_001,B08014_001M,B08014_001MA,,"""B08014_001M"""
+B08014_002E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_002,B08014_002M,B08014_002MA,,"""B08014_002M"""
+B08014_003E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_003,B08014_003M,B08014_003MA,,"""B08014_003M"""
+B08014_004E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_004,B08014_004M,B08014_004MA,,"""B08014_004M"""
+B08014_005E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_005,B08014_005M,B08014_005MA,,"""B08014_005M"""
+B08014_006E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_006,B08014_006M,B08014_006MA,,"""B08014_006M"""
+B08014_007E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_007,B08014_007M,B08014_007MA,,"""B08014_007M"""
+B08014_008E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_008,B08014_008M,B08014_008MA,,"""B08014_008M"""
+B08014_009E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_009,B08014_009M,B08014_009MA,,"""B08014_009M"""
+B08014_010E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_010,B08014_010M,B08014_010MA,,"""B08014_010M"""
+B08014_011E,Sex of Workers by Vehicles Available,,,,,,,,,,,,,,,B08014_011,B08014_011M,B08014_011MA,,"""B08014_011M"""
+B25032_001E,Tenure by Units in Structure,,,,,,,,,,,,,,,B25032_001,B25032_001M,B25032_001MA,,"""B25032_001M"""
+B25032_002E,Tenure by Units in Structure,,,,,,,,,,,,,,,B25032_002,B25032_002M,B25032_002MA,,"""B25032_002M"""
+B25032_003E,Tenure by Units in Structure,,,,,,,,,,,,,,,B25032_003,B25032_003M,B25032_003MA,,"""B25032_003M"""
+B17017_001E,Poverty Status in the Past 12 Months by Household Type by Age of Householder,,,,,,,,,,,,,,,B17017_001,B17017_001M,B17017_001MA,,"""B17017_001M"""
+B14002_001E,Sex by School Enrollment by Level of School by Type of School for the Population 3 Years and Over,,,,,,,,,,,,,,,B14002_001,B14002_001M,B14002_001MA,,"""B14002_001M"""
+B14002_002E,Sex by School Enrollment by Level of School by Type of School for the Population 3 Years and Over,,,,,,,,,,,,,,,B14002_002,B14002_002M,B14002_002MA,,"""B14002_002M"""
+B14002_003E,Sex by School Enrollment by Level of School by Type of School for the Population 3 Years and Over,,,,,,,,,,,,,,,B14002_003,B14002_003M,B14002_003MA,,"""B14002_003M"""
+B14002_004E,Sex by School Enrollment by Level of School by Type of School for the Population 3 Years and Over,,,,,,,,,,,,,,,B14002_004,B14002_004M,B14002_004MA,,"""B14002_004M"""
+B14002_005E,Sex by School Enrollment by Level of School by Type of School for the Population 3 Years and Over,,,,,,,,,,,,,,,B14002_005,B14002_005M,B14002_005MA,,"""B14002_005M"""
+B14002_006E,Sex by School Enrollment by Level of School by Type of School for the Population 3 Years and Over,,,,,,,,,,,,,,,B14002_006,B14002_006M,B14002_006MA,,"""B14002_006M"""
+B01001_002E,#N/A,,,,,,,,,,,,,,,B01001_002,B01001_002M,B01001_002MA,,"""B01001_002M"""
+B01001_026E,#N/A,,,,,,,,,,,,,,,B01001_026,B01001_026M,B01001_026MA,,"""B01001_026M"""
+B09001_001E,Population Under 18 Years by Age,,,,,,,,,,,,,,,B09001_001,B09001_001M,B09001_001MA,,"""B09001_001M"""
+B09002_001E,Own Children Under 18 Years by Family Type and Age,,,,,,,,,,,,,,,B09002_001,B09002_001M,B09002_001MA,,"""B09002_001M"""
+B16001_001E,Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over,,,,,,,,,,,,,,,B16001_001,B16001_001M,B16001_001MA,,"""B16001_001M"""
+B16001_002E,Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over,,,,,,,,,,,,,,,B16001_002,B16001_002M,B16001_002MA,,"""B16001_002M"""
+B16001_003E,Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over,,,,,,,,,,,,,,,B16001_003,B16001_003M,B16001_003MA,,"""B16001_003M"""
+B16001_004E,Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over,,,,,,,,,,,,,,,B16001_004,B16001_004M,B16001_004MA,,"""B16001_004M"""
+B17001_002E,Poverty Status in the Past 12 Months by Sex by Age,,,,,,,,,,,,,,,B17001_002,B17001_002M,B17001_002MA,,"""B17001_002M"""
+B17001_031E,Poverty Status in the Past 12 Months by Sex by Age,,,,,,,,,,,,,,,B17001_031,B17001_031M,B17001_031MA,,"""B17001_031M"""
+B19313_001E,Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars),,,,,,,,,,,,,,,B19313_001,B19313_001M,B19313_001MA,,"""B19313_001M"""
+B23006_001E,Educational Attainment by Employment Status for the Population 25 to 64 Years,,,,,,,,,,,,,,,B23006_001,B23006_001M,B23006_001MA,,"""B23006_001M"""
+B23006_002E,Educational Attainment by Employment Status for the Population 25 to 64 Years,,,,,,,,,,,,,,,B23006_002,B23006_002M,B23006_002MA,,"""B23006_002M"""
+B23006_003E,Educational Attainment by Employment Status for the Population 25 to 64 Years,,,,,,,,,,,,,,,B23006_003,B23006_003M,B23006_003MA,,"""B23006_003M"""
+B23006_004E,Educational Attainment by Employment Status for the Population 25 to 64 Years,,,,,,,,,,,,,,,B23006_004,B23006_004M,B23006_004MA,,"""B23006_004M"""
+B23006_005E,Educational Attainment by Employment Status for the Population 25 to 64 Years,,,,,,,,,,,,,,,B23006_005,B23006_005M,B23006_005MA,,"""B23006_005M"""
+B25002_001E,Occupancy Status,,,,,,,,,,,,,,,B25002_001,B25002_001M,B25002_001MA,,"""B25002_001M"""
+B25002_002E,Occupancy Status,,,,,,,,,,,,,,,B25002_002,B25002_002M,B25002_002MA,,"""B25002_002M"""
+B25063_001E,#N/A,,,,,,,,,,,,,,,B25063_001,B25063_001M,B25063_001MA,,"""B25063_001M"""
+B25071_001E,#N/A,,,,,,,,,,,,,,,B25071_001,B25071_001M,B25071_001MA,,"""B25071_001M"""
+B25087_001E,#N/A,,,,,,,,,,,,,,,B25087_001,B25087_001M,B25087_001MA,,"""B25087_001M"""
+B25091_001E,#N/A,,,,,,,,,,,,,,,B25091_001,B25091_001M,B25091_001MA,,"""B25091_001M"""
+B27001_001E,#N/A,,,,,,,,,,,,,,,B27001_001,B27001_001M,B27001_001MA,,"""B27001_001M"""
+B27001_002E,#N/A,,,,,,,,,,,,,,,B27001_002,B27001_002M,B27001_002MA,,"""B27001_002M"""
+B27001_003E,#N/A,,,,,,,,,,,,,,,B27001_003,B27001_003M,B27001_003MA,,"""B27001_003M"""
+B08121_001E,Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Means of Transportation to Work,,,,,,,,,,,,,,,B08121_001,B08121_001M,B08121_001MA,,"""B08121_001M"""
+B08121_002E,Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Means of Transportation to Work,,,,,,,,,,,,,,,B08121_002,B08121_002M,B08121_002MA,,"""B08121_002M"""
+B08121_003E,Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Means of Transportation to Work,,,,,,,,,,,,,,,B08121_003,B08121_003M,B08121_003MA,,"""B08121_003M"""
+B08121_004E,Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Means of Transportation to Work,,,,,,,,,,,,,,,B08121_004,B08121_004M,B08121_004MA,,"""B08121_004M"""
+B05006_003E,Place of Birth for the Foreign-Born Population in the United States,,,,,,,,,,,,,,,B05006_003,B05006_003M,B05006_003MA,,"""B05006_003M"""
+B05006_005E,Place of Birth for the Foreign-Born Population in the United States,,,,,,,,,,,,,,,B05006_005,B05006_005M,B05006_005MA,,"""B05006_005M"""
+B05006_008E,Place of Birth for the Foreign-Born Population in the United States,,,,,,,,,,,,,,,B05006_008,B05006_008M,B05006_008MA,,"""B05006_008M"""
+B05007_004E,Place of Birth by Year of Entry by Citizenship Status for the Foreign-Born Population,,,,,,,,,,,,,,,B05007_004,B05007_004M,B05007_004MA,,"""B05007_004M"""
+B05007_005E,Place of Birth by Year of Entry by Citizenship Status for the Foreign-Born Population,,,,,,,,,,,,,,,B05007_005,B05007_005M,B05007_005MA,,"""B05007_005M"""
+B05001_005E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05001_005,B05001_005M,B05001_005MA,,"""B05001_005M"""
+B05001_006E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,B05001_006,B05001_006M,B05001_006MA,,"""B05001_006M"""
+B17025_002E,Poverty Status in the Past 12 Months by Nativity,,,,,,,,,,,,,,,B17025_002,B17025_002M,B17025_002MA,,"""B17025_002M"""
+B17025_004E,Poverty Status in the Past 12 Months by Nativity,,,,,,,,,,,,,,,B17025_004,B17025_004M,B17025_004MA,,"""B17025_004M"""
+B23006_007E,Educational Attainment by Employment Status for the Population 25 to 64 Years,,,,,,,,,,,,,,,B23006_007,B23006_007M,B23006_007MA,,"""B23006_007M"""
+B15012_002E,Total Fields of Bachelor's Degrees Reported,,,,,,,,,,,,,,,B15012_002,B15012_002M,B15012_002MA,,"""B15012_002M"""
+B15012_003E,Total Fields of Bachelor's Degrees Reported,,,,,,,,,,,,,,,B15012_003,B15012_003M,B15012_003MA,,"""B15012_003M"""
+B25075_002E,#N/A,,,,,,,,,,,,,,,B25075_002,B25075_002M,B25075_002MA,,"""B25075_002M"""
+B27020_003E,#N/A,,,,,,,,,,,,,,,B27020_003,B27020_003M,B27020_003MA,,"""B27020_003M"""
+B05001_001E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,,,,,
+B05001_002E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,,,,,
+B05001_003E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,,,,,
+B05001_004E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,,,,,
+B05001_005E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,,,,,
+B05001_006E,Nativity and Citizenship Status in the United States,,,,,,,,,,,,,,,,,,,
+B05002_001E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_002E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_003E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_004E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_005E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_006E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_007E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_008E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_009E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_010E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_011E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_012E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_013E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_014E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05002_015E,Place of Birth by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_001E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_002E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_003E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_004E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_005E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_006E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_007E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_008E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_009E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_010E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_011E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_012E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_013E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_014E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_015E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_016E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_017E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_018E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_019E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_020E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_021E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_022E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003_023E,Sex by Age by Nativity and Citizenship Status,,,,,,,,,,,,,,,,,,,
+B05003A_001E,Sex by Age by Nativity and Citizenship Status (White Alone),,,,,,,,,,,,,,,,,,,
+B05003A_023E,Sex by Age by Nativity and Citizenship Status (White Alone),,,,,,,,,,,,,,,,,,,
+B05003B_001E,Sex by Age by Nativity and Citizenship Status (Black or African American Alone),,,,,,,,,,,,,,,,,,,
+B05003B_023E,Sex by Age by Nativity and Citizenship Status (Black or African American Alone),,,,,,,,,,,,,,,,,,,
+B05003C_001E,Sex by Age by Nativity and Citizenship Status (American Indian and Alaska Native Alone),,,,,,,,,,,,,,,,,,,
+B05003C_023E,Sex by Age by Nativity and Citizenship Status (American Indian and Alaska Native Alone),,,,,,,,,,,,,,,,,,,
+B05003D_001E,Sex by Age by Nativity and Citizenship Status (Asian Alone),,,,,,,,,,,,,,,,,,,
+B05003D_023E,Sex by Age by Nativity and Citizenship Status (Asian Alone),,,,,,,,,,,,,,,,,,,
+B05003E_001E,Sex by Age by Nativity and Citizenship Status (Native Hawaiian and Other Pacific Islander Alone),,,,,,,,,,,,,,,,,,,
+B05003E_023E,Sex by Age by Nativity and Citizenship Status (Native Hawaiian and Other Pacific Islander Alone),,,,,,,,,,,,,,,,,,,
+B05003F_001E,Sex by Age by Nativity and Citizenship Status (Some Other Race Alone),,,,,,,,,,,,,,,,,,,
+B05003F_023E,Sex by Age by Nativity and Citizenship Status (Some Other Race Alone),,,,,,,,,,,,,,,,,,,
+B05003H_001E,"Sex by Age by Nativity and Citizenship Status (White Alone, Not Hispanic or Latino)",,,,,,,,,,,,,,,,,,,
+B05003H_023E,"Sex by Age by Nativity and Citizenship Status (White Alone, Not Hispanic or Latino)",,,,,,,,,,,,,,,,,,,
+B05003I_001E,Sex by Age by Nativity and Citizenship Status (Hispanic or Latino),,,,,,,,,,,,,,,,,,,
+B05003I_023E,Sex by Age by Nativity and Citizenship Status (Hispanic or Latino),,,,,,,,,,,,,,,,,,,
