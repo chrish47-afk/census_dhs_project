@@ -5,10 +5,8 @@ To analyze trends in immigration and their impact on U.S. demographics, economy,
 
 ## Datasets
 
-**The American Community Survey (ACS5)**  
-**Homeland Security Statistics (HSS), Yearbook 2023**
-
----
+- **1. The American Community Survey (ACS5)**  
+- **2. Homeland Security Statistics (HSS), Yearbook 2023**
 
 ## Languages
 
@@ -16,19 +14,13 @@ To analyze trends in immigration and their impact on U.S. demographics, economy,
 - **Scala (Azure Databricks)**: Data Processing and Analysis  
 - **Excel**: Vetting and Visualizations  
 
----
-
 ## Message
 
 I’m a dreamer, an immigrant, and someone who loves this country deeply. My intention with this project is not to spark political debate or discomfort but to fulfill the goals of this Big Data project: to extract, process, and present meaningful insights from publicly available data.
 
----
-
 ## Why Did I Use These Datasets?
 
 I chose these datasets because they provide comprehensive, reliable, and publicly available data on various demographic, economic, and immigration-related metrics. They align with my project goal to analyze and present findings on the dynamics of immigration in the US using trusted sources. Both datasets are accessible, easy to retrieve, and well-suited for replication during peer review.
-
----
 
 ## What Are These Datasets?
 
