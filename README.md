@@ -1,12 +1,11 @@
----
 # Objective
 To analyze trends in immigration and their impact on U.S. demographics, economy, and societal dynamics using US census and DHS data.
 
 ---
 # Datasets
 
-### The American Community Survey (ACS5)
-### Homeland Security Statistics (HSS), Yearbook 2023
+- **The American Community Survey (ACS5)**
+- **Homeland Security Statistics (HSS), Yearbook 2023**
 
 # Languages
 
@@ -30,9 +29,7 @@ I chose these datasets because they provide comprehensive, reliable, and publicl
 - ACS5 is the most reliable, precise, and representative. It may be the least current, but when it comes to precision and reliability, ACS5 is the best dataset to use.
 - The ACS5 dataset presents estimates of counts, averages, medians, proportions, and rates, derived from survey sampling and accompanied by margins of error (MOE) to quantify uncertainty.
 - For more details please see [Census.gov | U.S. Census Bureau Homepage](https://www.census.gov/).
-
-**Note:**
-- **ACS1 vs ACS5 vs Decennial Datasets:** ACS1 provides annual, timely estimates for larger populations (65,000+). ACS5 offers more reliable estimates with greater geographic granularity by combining five years of data, while the Decennial Census is a comprehensive population count every 10 years, serving as the baseline for apportionment and funding allocation.
+- **Note: ACS1 vs ACS5 vs Decennial Datasets:** ACS1 provides annual, timely estimates for larger populations (65,000+). ACS5 offers more reliable estimates with greater geographic granularity by combining five years of data, while the Decennial Census is a comprehensive population count every 10 years, serving as the baseline for apportionment and funding allocation.
 
 ### Homeland Security Statistics (HSS), Yearbook 2023
 - The HSS Yearbook compiles immigration-related statistics, including lawful permanent residents, naturalizations, non-immigrant admissions, and enforcement actions. It is published by the Department of Homeland Security (DHS).
@@ -55,7 +52,6 @@ I chose these datasets because they provide comprehensive, reliable, and publicl
 - The API proved unreliable at times, occasionally failing when too many variables were requested in a single pull.
 - The data retrieval process was time-intensive, taking approximately 5-6 hours to complete, highlighting a need for script optimization to improve efficiency or scaling down the variable list.
 
----
 # Data Processing and Analysis
 
 ### Population and Demographics
@@ -80,7 +76,6 @@ I chose these datasets because they provide comprehensive, reliable, and publicl
 - **Expanding Data Analysis:** Developing and addressing additional questions focusing on areas such as Economic Impact, Education, Policy and Migration Trends, and Housing.
 - **Enhanced Visualizations:** Translating data findings into clear, engaging visual narratives to better communicate insights and trends.
 
----
 # Challenges and Roadblocks
 
 - **Complexity of Census Data:** The Census API and datasets are more intricate than initially anticipated, requiring significant time to understand their structure and limitations.
