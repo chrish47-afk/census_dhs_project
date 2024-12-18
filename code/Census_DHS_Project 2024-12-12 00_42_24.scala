@@ -1,3 +1,7 @@
+
+// Azure key and other sensitive data was delete from this script. This code will be needed in order to properly
+// source in the specified data files.
+
 //////////////////////////////////
 //////// Sourcing in Data ////////
 //////////////////////////////////
