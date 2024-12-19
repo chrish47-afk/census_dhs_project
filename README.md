@@ -151,6 +151,7 @@ datatypescensus.foreach(println)
 - **Data Questions - Manual**
 <details>
   <summary>Click to view code</summary>
+
 ```scala
 val censuspop = census.select(
                               $"year",
@@ -173,7 +174,7 @@ val totalpop = censuspop.agg(sum($"B05001_001E").alias("total_state_population")
 - **Data Questions - Main Function**
 <details>
   <summary>Click to view code</summary>
-  
+
 ```scala
 //////// Example Calls ////////
 val resultUS = aggregateCensusData(
