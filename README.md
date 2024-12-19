@@ -207,25 +207,40 @@ println(s"County-level aggregation: $resultCounty")
 ### Population and Demographics
 
 - **How does the foreign-born or 'Not a U.S. Citizen' population vary across different counties in the U.S. in 2022? (Cennsus Data)**  
-  - `B05001_001E` (Total population in the United States): 330 Million  
-  - `B05001_006E` (Total population in the United States, Not a U.S. citizen): 22 Million  
-    - `B05001_001E` (Total population in Washington State): 7.7 Million  
-    - `B05001_006E` (Total population in Washington State, Not a U.S. citizen): 590 Thousand  
-      - `B05001_001E` (Total population in King County): 2.3 Million  
-      - `B05001_006E` (Total population in King County, Not a U.S. citizen):  291 Thousand
+  - `B05001_001E` (Total population in the United States): `330 Million`  
+  - `B05001_006E` (Total population in the United States, Not a U.S. citizen): `22 Million`  
+    - `B05001_001E` (Total population in Washington State): `7.7 Million`  
+    - `B05001_006E` (Total population in Washington State, Not a U.S. citizen): `590 Thousand`  
+      - `B05001_001E` (Total population in King County): `2.3 Million`  
+      - `B05001_006E` (Total population in King County, Not a U.S. citizen):  `291 Thousand`
 
-- **What is the racial and ethnic breakdown of the foreign-born population in the U.S.?**  
-  - `B03002_003E` (Hispanic or Latino)
-  - `B03002_004E` (White alone, not Hispanic)
-  - `B02001_002E` (White)
-  - `B02001_003E`(Black or African American)
+<details>
+  <summary>Click to view Bar Chart</summary>
 
-- **What percentage of the foreign-born population has naturalized citizenship? (DHS Data)**  
-  - Total:
-  - Total:
+![Census Data Bar Chart](images/US_pop_foreign_bar.jpg)
 
-- **How has the foreign-born population changed over the past decade in various counties?**  
-  Variables: `B05001_001E`, `B05002_001E`
+</details>
+
+- **What is the racial and ethnic breakdown of the Total population in the U.S.?**  
+  - `B03002_003E` (White alone): TBD  
+  - `B03002_004E` (Black or African American alone): TBD  
+  - `B03002_005E` (American Indian and Alaska Native alone): TBD  
+  - `B03002_006E` (Asian alone): TBD  
+  - `B03002_012E` (Hispanic or Latino): TBD  
+  ... There are more variables, race groups...
+  ... After further vetting, I need to verify if those variables are correct ....
+
+- **Persons obtaining lawful permanent resident status by country of last residence in 2017 and 2023: (DHS Data)**
+    - 2017
+      - Total: 1.1 Million  
+        - Mexico: 168 Thousand  
+        - Cuba: 64 Thousand  
+        - China: 66 Thousand  
+    - 2023
+      - Total: 1.2 Million  
+        - Mexico: 150 Thousand  
+        - Cuba: 78 Thousand  
+        - China: 55 Thousand  
 
 ---
 # Looking Ahead
