@@ -88,13 +88,14 @@ print(df)
 - Progressed to pulling data for multiple variables, multiple counties, and multiple states across all available ACS5 years. This required writing more advanced and complex Python code to handle larger-scale data retrieval effectively.
 
 **Insights from Expanded Data Pull:**
-- Utilized the Census API and the `us` library to retrieve ACS5 data for all counties, states, and years.
-- A wide range of variables was included, selected based on personal interest and some chosen randomly.
-- Inconsistencies emerged where certain variables were missing for specific years, resulting in potential gaps in the final dataset.
-- The API proved unreliable at times, occasionally failing when too many variables were requested in a single pull.
-- The data retrieval process was time-intensive, taking approximately 5-6 hours to complete, highlighting a need for script optimization to improve efficiency or scaling down the variable list.
+- Utilized the Census API and the `us` library to retrieve ACS5 data for all counties, states, and years.  
+- A wide range of variables was included, selected based on personal interest and some chosen randomly.  
+- Inconsistencies emerged where certain variables were missing for specific years, resulting in potential gaps in the final dataset.  
+- The API proved unreliable at times, occasionally failing when too many variables were requested in a single pull.  
+- The data retrieval process was time-intensive, taking approximately 5-6 hours to complete, highlighting a need for script optimization to improve efficiency or scaling down the variable list.  
 
-- Extracted data into a large CSV file as the output of data preparation, opting for simplicity over using Parquet files.
+- Extracted data into a large CSV file as the output of data preparation, opting for simplicity over using Parquet files.  
+- Output: acs5_immigration_foreign_allyears_final.csv ~ 0.5gb  
 
 # Data Processing and Analysis
 ### Main Script
@@ -206,7 +207,7 @@ println(s"County-level aggregation: $resultCounty")
 
 ### Population and Demographics
 
-- **How does the foreign-born or 'Not a U.S. Citizen' population vary across different counties in the U.S. in 2022? (Cennsus Data)**  
+- **How does the foreign-born or 'Not a U.S. Citizen' population vary across different counties in the U.S. in 2022? (Census Data)**  
   - `B05001_001E` (Total population in the United States): `330 Million`  
   - `B05001_006E` (Total population in the United States, Not a U.S. citizen): `22 Million`  
     - `B05001_001E` (Total population in Washington State): `7.7 Million`  
