@@ -97,6 +97,111 @@ print(df)
 - Extracted data into a large CSV file as the output of data preparation, opting for simplicity over using Parquet files.
 
 # Data Processing and Analysis
+### Main Script
+<details>
+  <summary>Click to view code</summary>
+
+```scala
+- Sourcing in Data
+//////////////////////////////////
+//////// Sourcing in Data ////////
+//////////////////////////////////
+import spark.implicits._
+import org.apache.spark.sql.SparkSession
+
+//////// Measure Start Time ////////
+val startTime = System.nanoTime() //nano is more precised than milli.
+
+// Reading in Data Files
+val filepath_census = abfssBasePath + "Project_Data_Census_DHS/acs5_immigration_foreign_allyears_final.csv"
+val filepath_dhs2 = abfssBasePath + "Project_Data_Census_DHS/DHS_table2_lawful_permanent_resident.csv"
+
+val census = spark.read
+                  .option("header", "true") // Use the first row as column names
+                  .csv(filepath_census)
+val dhslawful = spark.read
+                .option("header", "true")
+                .csv(filepath_dhs2)
+```
+</details>
+
+- Data Review - Validation
+<details>
+  <summary>Click to view code</summary>
+  
+```scala
+// Number of columns
+val numColumns = census.columns.length
+println(s"Number of census df columns: $numColumns")
+
+// Number of rows
+val numRows = census.count()
+println(s"Number of census df rows: $numRows")
+
+val datatypescensus = census.schema.fields.map(_.dataType)
+                                    .distinct
+
+// Print the unique data types
+println("Unique data types in census df:")
+datatypescensus.foreach(println)
+```
+</details>
+
+- Data Questions - Manual
+<details>
+  <summary>Click to view code</summary>
+```scala
+val censuspop = census.select(
+                              $"year",
+                              $"state_name",
+                              $"county_name",
+                              $"B05001_001E",
+                              $"B05002_001E"
+                              )
+                    .filter($"year" === 2022)
+                    .filter($"state_name" === "Washington")
+////////Census - Calculating the sum of B05001_001E at different levels////////
+val totalcensuspop = census.filter($"year" === 2022)
+                          .agg(sum($"B05001_001E").alias("total_us_population"))
+                          .collect()(0)(0)
+val totalpop = censuspop.agg(sum($"B05001_001E").alias("total_state_population"))
+                        .collect()(0)(0) // Collecting the sum as a scalar value
+```
+</details>
+
+- Data Questions - Main Function
+<details>
+  <summary>Click to view code</summary>
+
+```scala
+
+//////// Example Calls ////////
+val resultUS = aggregateCensusData(
+  census = census,
+  year = 2022,
+  variables = Seq("B05001_006E")
+)
+println(s"US-level aggregation: $resultUS")
+
+val resultState = aggregateCensusData(
+  census = census,
+  year = 2022,
+  stateName = Some("Oregon"),
+  variables = Seq("B05001_001E", "B05001_006E")
+)
+println(s"State-level aggregation: $resultState")
+
+val resultCounty = aggregateCensusData(
+  census = census,
+  year = 2022,
+  stateName = Some("Washington"),
+  countyName = Some("King County"),
+  variables = Seq("B05001_001E", "B05001_006E")
+)
+println(s"County-level aggregation: $resultCounty")
+
+```
+</details>
 
 ### Population and Demographics
 
