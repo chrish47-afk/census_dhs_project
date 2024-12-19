@@ -1,6 +1,4 @@
-
-// Azure key and other sensitive data was delete from this script. This code will be needed in order to properly
-// source in the specified data files.
+// COMMAND ----------
 
 //////////////////////////////////
 //////// Sourcing in Data ////////
@@ -130,76 +128,94 @@ println(s"Persons obtaining lawful permanent resident status by region and selec
 
 // COMMAND ----------
 
-/////////////////////////////////
-//// Data Questions - Manual, excluding Total(Draft) ////
-/////////////////////////////////
-import spark.implicits._
-import org.apache.spark.sql.{SparkSession, DataFrame}
-import org.apache.spark.sql.functions._ // For aggregation functions
+// NOTES
+/////////////////////////////////////////////
+// DataFrame and Collection Operations
+/////////////////////////////////////////////
 
-/**
-//////// Master Function ////////
-def aggregateCensusData(census: DataFrame, 
-                        year: Int, 
-                        stateName: String, 
-                        countyName: Option[String] = None, 
-                        variables: Seq[String]): Map[String, Any] = {
+// .groupBy
+// - Groups rows in a DataFrame based on the values of one or more columns.
+// - Returns a RelationalGroupedDataset, allowing for aggregation operations on grouped data.
+// Example:
+// df.groupBy("state_name").count()
 
-  // Select relevant columns dynamically based on input variables
-  val selectedColumns = Seq($"year", $"state_name", $"county_name") ++ variables.map(census.col)
-  val filteredCensus = census.select(selectedColumns: _*)
-                             .filter($"year" === year)
-                             .filter($"state_name" === stateName)
+// .agg
+// - Performs aggregation functions (e.g., sum, count, avg) on grouped data from .groupBy.
+// - Returns a new DataFrame with aggregated results.
+// Example:
+// groupedData.agg(sum("population").alias("total_population"))
 
-  // Handle aggregation logic based on countyName input
-  val result = countyName match {
-    case Some(county) => 
-      // Aggregate at the county level
-      val grouped = filteredCensus.filter($"county_name".contains(county))
-                                  .groupBy($"county_name")
-      
-      val aggExprs = variables.map(v => sum(census.col(v)).alias(s"${v}_total"))
-      grouped.agg(aggExprs.head, aggExprs.tail: _*)
-             .collect()
-             .map(row => row.getValuesMap[Any](row.schema.fieldNames))
-             .headOption.getOrElse(Map("Error" -> "No data found for the specified county"))
-      
-    case None => 
-      // Construct aggregation expressions
-      val aggExprs = variables.map(v => sum(census.col(v)).alias(s"${v}_total"))
-      // Aggregate at the state level
-      filteredCensus.agg(aggExprs.head, aggExprs.tail: _*)
-                    .collect()(0)
-                    .getValuesMap[Any](variables.map(v => s"${v}_total"))
-  }
+// .collect
+// - Retrieves all rows of a DataFrame or Dataset to the driver node as an array.
+// - Should be used cautiously with large datasets due to memory limitations.
+// Example:
+// val rows = df.collect() // Returns an Array[Row]
 
-  result
-}
+// .map
+// - Transforms elements in a collection or Dataset based on a specified function.
+// Example:
+// val doubled = Seq(1, 2, 3).map(x => x * 2) // Output: Seq(2, 4, 6)
 
-//////// Example Calls ////////
-val resultState = aggregateCensusData(
-  census = census,
-  year = 2022,
-  stateName = "Oregon",
-  variables = Seq("B05001_001E", "B05002_001E")
-)
-println(resultState)
+// .headOption
+// - Returns an Option containing the first element of a collection (if it exists) or None if the collection is empty.
+// Example:
+// val firstElement = Seq(1, 2, 3).headOption // Output: Some(1)
+// val emptyElement = Seq().headOption // Output: None
 
-val resultCounty = aggregateCensusData(
-  census = census,
-  year = 2022,
-  stateName = "Washington",
-  countyName = Some("King County"),
-  variables = Seq("B05001_001E", "B05002_001E")
-)
-println(resultCounty)
-**/
+// .getValuesMap
+// - Converts specific columns of a Row into a Map of column names and their corresponding values.
+// Example:
+// val row = Row("California", 39538223)
+// row.getValuesMap(Seq("state", "population"))
+// // Output: Map("state" -> "California", "population" -> 39538223)
+
+/////////////////////////////////////////////
+// Scala Data Structures
+/////////////////////////////////////////////
+
+// Option[]
+// - A container that may or may not hold a value. Used to handle optional or missing values without null.
+// - Subtypes:
+//   - Some(value): Contains a value.
+//   - None: Represents the absence of a value.
+// Example:
+// val opt: Option[Int] = Some(5)
+// opt.getOrElse(0) // Output: 5
+
+// Some()
+// - Represents a value inside an Option.
+// Example:
+// val someValue = Some(42) // Output: Option[Int] = Some(42)
+
+// Seq
+// - A general-purpose, ordered collection in Scala (immutable by default).
+// Example:
+// val numbers = Seq(1, 2, 3) // Output: Seq[Int] = List(1, 2, 3)
+
+// Map[]
+// - A collection of key-value pairs, where each key maps to a value.
+// Example:
+// val statePopulations = Map("California" -> 39538223, "Texas" -> 29145505)
+// statePopulations("California") // Output: 39538223
+
 
 // COMMAND ----------
 
 ////////////////////////////////////////
 //// Data Questions - Main Function ////
 ////////////////////////////////////////
+/*
+aggregateCensusData is designed to aggregate census data at different geographic levels(US, State, county) based on user-specified variables.
+
+* conditional statements(if-else) vs. pattern matching
+Structure - Pattern Matching: Testing a value against multiple patterns. Top to bottom.:
+value match {
+  case pattern1 => // Code for pattern1
+  case pattern2 => // Code for pattern2
+  case _        => // Code for a default case
+}
+*/
+
 import spark.implicits._
 import org.apache.spark.sql.{SparkSession, DataFrame}
 import org.apache.spark.sql.functions._ // For aggregation functions
@@ -207,29 +223,31 @@ import org.apache.spark.sql.functions._ // For aggregation functions
 //////// Master Function ////////
 def aggregateCensusData(census: DataFrame, 
                         year: Int, 
-                        stateName: Option[String] = None, 
-                        countyName: Option[String] = None, 
+                        stateName: Option[String] = None, // Optional
+                        countyName: Option[String] = None, // Optional
                         variables: Seq[String]): Map[String, Any] = {
 
   // Select relevant columns dynamically based on input variables
   val selectedColumns = Seq($"year", $"state_name", $"county_name") ++ variables.map(census.col)
+  //Seq($"year", $"state_name", $"county_name"): A sequence of pre-defined column names.
+  //variables.map(census.col): Maps the variables (a sequence of column names as strings) to actual column objects in the census DataFrame.
   val filteredCensus = census.select(selectedColumns: _*)
                              .filter($"year" === year)
 
   // Handle aggregation logic based on stateName and countyName inputs
   val result = (stateName, countyName) match {
-    case (Some(state), Some(county)) => 
+    case (Some(state), Some(county)) => // Both stateName and countyName are provided. Aggregates data at the county level.
       // Aggregate at the county level
       val grouped = filteredCensus.filter($"state_name" === state && $"county_name".contains(county))
                                   .groupBy($"county_name")
       
       val aggExprs = variables.map(v => sum(census.col(v)).alias(s"${v}_total"))
-      grouped.agg(aggExprs.head, aggExprs.tail: _*)
+      grouped.agg(aggExprs.head, aggExprs.tail: _*) //note: _* Expands a collection into a sequence of arguments.
              .collect()
              .map(row => row.getValuesMap[Any](row.schema.fieldNames))
              .headOption.getOrElse(Map("Error" -> "No data found for the specified county"))
 
-    case (Some(state), None) => 
+    case (Some(state), None) => // Only stateName is provided. Aggregates data at the state level.
       // Aggregate at the state level
       val stateFiltered = filteredCensus.filter($"state_name" === state)
       val aggExprs = variables.map(v => sum(census.col(v)).alias(s"${v}_total"))
@@ -237,33 +255,34 @@ def aggregateCensusData(census: DataFrame,
                    .collect()(0)
                    .getValuesMap[Any](variables.map(v => s"${v}_total")) //I can also get rid of this line. Review.
 
-    case (None, None) => 
+    case (None, None) => // No stateName or countyName is provided. Aggregates data at the national (US) level.
       // Aggregate at the national (US) level
       val aggExprs = variables.map(v => sum(census.col(v)).alias(s"${v}_total"))
       filteredCensus.agg(aggExprs.head, aggExprs.tail: _*)
                     .collect()(0)
                     .getValuesMap[Any](variables.map(v => s"${v}_total")) //I can also get rid of this line. Review.
 
-    case _ => 
+    case _ => //Case 4: Return an error map indicating an invalid input.
       Map("Error" -> "Invalid input: Provide either a state name or none for US-level aggregation.")
   }
 
   result
+  // The function returns a Map[String, Any] containing the aggregated values for the requested geo level or an error.
 }
 
 //////// Example Calls ////////
 val resultUS = aggregateCensusData(
   census = census,
   year = 2022,
-  variables = Seq("B05001_006E")
+  variables = Seq("B05001_001E","B05001_006E")
 )
 println(s"US-level aggregation: $resultUS")
 
 val resultState = aggregateCensusData(
   census = census,
   year = 2022,
-  stateName = Some("Oregon"),
-  variables = Seq("B05001_001E", "B05001_006E")
+  stateName = Some("Washington"),
+  variables = Seq("B05001_001E","B05001_006E")
 )
 println(s"State-level aggregation: $resultState")
 
@@ -272,7 +291,7 @@ val resultCounty = aggregateCensusData(
   year = 2022,
   stateName = Some("Washington"),
   countyName = Some("King County"),
-  variables = Seq("B05001_001E", "B05001_006E")
+  variables = Seq("B05001_001E","B05001_006E")
 )
 println(s"County-level aggregation: $resultCounty")
 
@@ -312,6 +331,6 @@ def getLawfulResidentCount(dhs: DataFrame,
 val resultMexico = getLawfulResidentCount(
   dhs = dhslawful, 
   year = "2022", 
-  country = Some("Mexico")
+  country = Some("Total") //Total is also another option.
 )
 println(s"Persons obtaining lawful permanent resident status by region or selected country of last residence: $resultMexico")

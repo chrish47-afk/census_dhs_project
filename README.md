@@ -206,7 +206,7 @@ println(s"County-level aggregation: $resultCounty")
 
 ### Population and Demographics
 
-- **How does the foreign-born or 'Not a U.S. Citizen' population vary across different counties in the U.S. in 2022? (Cennsus Data)**  
+- **How does the foreign-born or 'Not a U.S. Citizen' population vary across different counties in the U.S. in 2022? (Census Data)**  
   - `B05001_001E` (Total population in the United States): `330 Million`  
   - `B05001_006E` (Total population in the United States, Not a U.S. citizen): `22 Million`  
     - `B05001_001E` (Total population in Washington State): `7.7 Million`  
