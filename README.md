@@ -98,6 +98,7 @@ print(df)
 
 # Data Processing and Analysis
 ### Main Script
+- **Sourcing in Data**
 <details>
   <summary>Click to view code</summary>
 
@@ -125,10 +126,10 @@ val dhslawful = spark.read
 ```
 </details>
 
-- Data Review - Validation
+- **Data Review - Validation**
 <details>
   <summary>Click to view code</summary>
-  
+
 ```scala
 // Number of columns
 val numColumns = census.columns.length
@@ -147,7 +148,7 @@ datatypescensus.foreach(println)
 ```
 </details>
 
-- Data Questions - Manual
+- **Data Questions - Manual**
 <details>
   <summary>Click to view code</summary>
 ```scala
@@ -169,7 +170,7 @@ val totalpop = censuspop.agg(sum($"B05001_001E").alias("total_state_population")
 ```
 </details>
 
-- Data Questions - Main Function
+- **Data Questions - Main Function**
 <details>
   <summary>Click to view code</summary>
 
