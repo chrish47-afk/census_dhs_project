@@ -52,6 +52,38 @@ I chose these datasets because they provide comprehensive, reliable, and publicl
 ### Initial Exploration
 - Began by familiarizing myself with the census library in Python, including reviewing documentation, exploring the variable glossary, and running basic data pulls for one state and one variable at a time to understand the structure and capabilities of the dataset.
 
+<details>
+  <summary>Click to view code</summary>
+
+```python
+from census import Census
+from us import states
+import pandas as pd
+
+# Your Census API key
+API_KEY = "Enter Key" #Change as necessary
+
+# Initialize the Census API
+c = Census(API_KEY)
+
+# Query ACS 5-Year Data for 2022
+data = c.acs5.state(
+    ('B05001_001E'),  # Total population
+    '06'
+)
+
+# Convert to pandas DataFrame
+df = pd.DataFrame(data)
+
+# Save the results to a CSV file
+output_file = "acs5_ca_data.csv"
+df.to_csv(output_file, index=False)
+
+# Explore the data
+print(df)
+```
+</details>
+
 ### Scaling Up
 - Progressed to pulling data for multiple variables, multiple counties, and multiple states across all available ACS5 years. This required writing more advanced and complex Python code to handle larger-scale data retrieval effectively.
 
