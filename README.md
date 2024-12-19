@@ -206,14 +206,23 @@ println(s"County-level aggregation: $resultCounty")
 
 ### Population and Demographics
 
-- **How does the foreign-born population vary across different counties in the U.S.?**  
-  Variables: `B05001_001E` (Total population in the United States), `B05001_006E` (Total population in the United States, Not a U.S. citizen)
-
-- **What percentage of the foreign-born population has naturalized citizenship?**  
-  Variables: `B05001_002E` (Naturalized Citizens), `B05001_003E` (Non-Citizens)
+- **How does the foreign-born or 'Not a U.S. Citizen' population vary across different counties in the U.S. in 2022? (Cennsus Data)**  
+  - `B05001_001E` (Total population in the United States): 330 Million  
+  - `B05001_006E` (Total population in the United States, Not a U.S. citizen): 22 Million  
+    - `B05001_001E` (Total population in Washington State): 7.7 Million  
+    - `B05001_006E` (Total population in Washington State, Not a U.S. citizen): 590 Thousand  
+      - `B05001_001E` (Total population in King County): 2.3 Million  
+      - `B05001_006E` (Total population in King County, Not a U.S. citizen):  291 Thousand
 
 - **What is the racial and ethnic breakdown of the foreign-born population in the U.S.?**  
-  Variables: `B03002_003E` (Hispanic or Latino), `B03002_004E` (White alone, not Hispanic), `B02001_002E` (White), `B02001_003E` (Black or African American)
+  - `B03002_003E` (Hispanic or Latino)
+  - `B03002_004E` (White alone, not Hispanic)
+  - `B02001_002E` (White)
+  - `B02001_003E`(Black or African American)
+
+- **What percentage of the foreign-born population has naturalized citizenship? (DHS Data)**  
+  - Total:
+  - Total:
 
 - **How has the foreign-born population changed over the past decade in various counties?**  
   Variables: `B05001_001E`, `B05002_001E`
