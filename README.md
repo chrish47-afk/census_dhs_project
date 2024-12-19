@@ -37,6 +37,16 @@ I chose these datasets because they provide comprehensive, reliable, and publicl
 - For more details please see [About Our Data | OHSS - Office of Homeland Security Statistics](https://ohss.dhs.gov/).
 
 ---
+# Data Decisions and Outline
+- Identified limitations of the Census API and Python library in pulling complete datasets for all years, locations, and variables.
+- Decided to extract as much data as possible for the targeted variables to ensure comprehensive analysis.
+- Used Azure Databricks and Scala to implement custom data wrangling and processing for greater control and scalability.
+
+- Chose to use **Spark SQL DataFrames** over Datasets or RDDs for processing due to:
+  - Superior optimization capabilities via Spark’s Catalyst optimizer.
+  - Simplified syntax and integration with SQL-like queries, enhancing productivity.
+  - Better performance for structured and semi-structured data compared to RDDs.
+
 # Data Pull and Prepping
 
 ### Initial Exploration
@@ -51,6 +61,8 @@ I chose these datasets because they provide comprehensive, reliable, and publicl
 - Inconsistencies emerged where certain variables were missing for specific years, resulting in potential gaps in the final dataset.
 - The API proved unreliable at times, occasionally failing when too many variables were requested in a single pull.
 - The data retrieval process was time-intensive, taking approximately 5-6 hours to complete, highlighting a need for script optimization to improve efficiency or scaling down the variable list.
+
+- Extracted data into a large CSV file as the output of data preparation, opting for simplicity over using Parquet files.
 
 # Data Processing and Analysis
 
