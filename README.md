@@ -95,7 +95,7 @@ print(df)
 - The data retrieval process was time-intensive, taking approximately 5-6 hours to complete, highlighting a need for script optimization to improve efficiency or scaling down the variable list.  
 
 - Extracted data into a large CSV file as the output of data preparation, opting for simplicity over using Parquet files.  
-- **Output:** acs5_immigration_foreign_allyears_final.csv ~ 0.5gb  
+- **Output: acs5_immigration_foreign_allyears_final.csv ~ 0.7gb**  
 
 # Data Processing and Analysis
 ### Main Script
