@@ -104,7 +104,6 @@ print(df)
   <summary>Click to view code</summary>
 
 ```scala
-- Sourcing in Data
 //////////////////////////////////
 //////// Sourcing in Data ////////
 //////////////////////////////////
