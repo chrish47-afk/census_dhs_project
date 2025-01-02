@@ -96,6 +96,7 @@ print(df)
 
 - Extracted data into a large CSV file as the output of data preparation, opting for simplicity over using Parquet files.  
 - **Output: acs5_immigration_foreign_allyears_final.csv ~ 0.7gb**  
+  - **352,546 x 387**  
 
 # Data Processing and Analysis
 ### Main Script
@@ -220,15 +221,6 @@ println(s"County-level aggregation: $resultCounty")
 ![Census Data Bar Chart](images/US_pop_foreign_bar.jpg)
 
 </details>
-
-- **What is the racial and ethnic breakdown of the Total population in the U.S.?**  
-  - `B03002_003E` (White alone): TBD  
-  - `B03002_004E` (Black or African American alone): TBD  
-  - `B03002_005E` (American Indian and Alaska Native alone): TBD  
-  - `B03002_006E` (Asian alone): TBD  
-  - `B03002_012E` (Hispanic or Latino): TBD  
-  ... There are more variables, race groups...
-  ... After further vetting, I need to verify if those variables are correct ....
 
 - **Persons obtaining lawful permanent resident status by country of last residence in 2017 and 2023: (DHS Data)**
     - 2017
